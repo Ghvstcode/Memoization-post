@@ -10,9 +10,9 @@ function power(a, b) {
 // console.log("4", power(140, 100));
 
 const memoizedPower = fp.memoize(power);
-console.log("1", memoizedpower(240, 120)); //This Call is computed & cached
-console.log("2", memoizedpower(140, 100)); //This Call is computed & cached
-console.log("3", memoizedpower(240, 120)); //The result is returned from cache
-console.log("4", memoizedpower(140, 100)); //The result is returned from cache
-console.log("3", memoizedpower(240, 120)); //The result is returned from cache
-console.log("4", memoizedpower(140, 100)); //The result is returned from cache
+console.log("1", memoizedPower(240, 120)); //This Call is computed & cached
+console.log("2", memoizedPower(140, 100)); //This Call is computed & cached
+console.log("3", memoizedPower(240, 120)); //The result is returned from cache
+console.log("4", memoizedPower(140, 100)); //The result is returned from cache
+console.log("3", memoizedPower(240, 120)); //The result is returned from cache
+console.log("4", memoizedPower(140, 100)); //The result is returned from cache
